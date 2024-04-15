@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-chromecast",
+  "version": "2.0.1",
+  "scripts": {
+    "host-chrome-tests": "node tests/www/chrome/host-tests.js",
+    "style-js": "npx eslint --ignore-pattern tests/www/vendor www tests/www doc/example.js",
+    "style-js-fix": "npx eslint --ignore-pattern tests/www/vendor/ --fix www/ tests/www/ doc/example.js",
+    "style-java": "npx java-checkstyle -c ./check_style.xml ./src/android/",
+    "style": "npm run style-js-fix && npm run style-java",
+    "test": "npm run style-js && npm run style-java"
+  },
+  "author": "",
+  "license": "dual GPLv3/MPLv2",
+  "readme": "README.md",
+  "description": "README.md",
+  "devDependencies": {
+    "eslint": "~3.19.0",
+    "eslint-config-semistandard": "~11.0.0",
+    "eslint-config-standard": "~10.2.1",
+    "eslint-plugin-import": "~2.3.0",
+    "eslint-plugin-node": "~5.0.0",
+    "eslint-plugin-promise": "~3.5.0",
+    "eslint-plugin-standard": "~3.0.1",
+    "express": "^4.17.1",
+    "java-checkstyle": "0.1.0",
+    "path": "^0.12.7"
+  }
+}

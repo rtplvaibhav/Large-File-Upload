@@ -1,0 +1,28 @@
+PODS:
+  - google-cast-sdk (4.5.3):
+    - google-cast-sdk/Core (= 4.5.3)
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.13)
+  - google-cast-sdk/Core (4.5.3):
+    - GTMSessionFetcher/Core (~> 1.1)
+    - Protobuf (~> 3.13)
+  - GTMSessionFetcher/Core (1.7.2)
+  - Protobuf (3.25.0)
+
+DEPENDENCIES:
+  - google-cast-sdk (~> 4.5.2)
+
+SPEC REPOS:
+  trunk:
+    - google-cast-sdk
+    - GTMSessionFetcher
+    - Protobuf
+
+SPEC CHECKSUMS:
+  google-cast-sdk: f94c5df87564f71d4342400b8487665e9bed27c6
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  Protobuf: 6a4183ec1d51649eb2be7b86ccc286e5c539219c
+
+PODFILE CHECKSUM: 135e333daff395fd32bc9b971bb54c56acf5a731
+
+COCOAPODS: 1.14.3

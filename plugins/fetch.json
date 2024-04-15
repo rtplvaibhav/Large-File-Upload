@@ -1,0 +1,10 @@
+{
+  "cordova-plugin-chromecast": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/miloproductionsinc/cordova-plugin-chromecast"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}
